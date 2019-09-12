@@ -2,7 +2,7 @@
 checker for programs
 
 ```bash
-perl ./Nena.pl [args and flags]
+perl Nena.pl [args and flags]
 
 ```
 
