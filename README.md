@@ -1,17 +1,22 @@
 # Nena
 checker for programs
 
+# How to use:
+Put your program and test data in a folder, under the same directory as this file, and run:
+
 ```bash
 perl Nena.pl [args and flags]
 
 ```
+
+(Installation of perl is needed, as well as module Text::Diff.)
 
 Available parameters:
 
 **-p**(needed): program name, also the folder name.<br>
 **-n**(optional): number of test cases, default: 10.<br>
 **-std**(optional): extension of standard file, default: .std.<br>
-**-run**(optional): extension of test file, default: .tst.<br>
+**-run**(optional): extension of test file(your program), default: .tst.<br>
 **-in**(optional): extension of input file, default: .in.<br>
 **-out**(optional): extension of output file, default: .out.<br>
 **-ans**(optional): extension of answer file, default: .ans.<br>
